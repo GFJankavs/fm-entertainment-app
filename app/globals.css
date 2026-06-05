@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@theme {
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-blue-950: #10141e;
+    --color-blue-900: #161d2f;
+    --color-blue-500: #5a698f;
+    --color-red: #fc4747;
+
+    --spacing-0: 0px;
+    --spacing-100: 8px;
+    --spacing-200: 16px;
+    --spacing-300: 24px;
+    --spacing-400: 32px;
+    --spacing-500: 40px;
+    --spacing-700: 56px;
+    --spacing-900: 72px;
+    --spacing-1000: 80px; 
+}
+
+.bg-gradient {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.75) 100%
+    );
+}
+
+.text-preset-1 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 125%; /* 40px */
+    letter-spacing: -0.5px;
+}
+
+.text-preset-1--mobile {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 125%; /* 25px */
+    letter-spacing: -0.3px;
+}
+
+.text-preset-2--medium {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 30px */
+}
+
+.text-preset-2--light {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 125%; /* 30px */
+}
+
+.text-preset-2--mobile {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 125%; /* 20px */
+}
+
+.text-preset-3 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 22.5px */
+}
+
+.text-preset-3--mobile {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+}
+
+.text-preset-4 {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 125%; /* 18.75px */
+}
+
+.text-preset-4--mobile {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+}
+
+.text-preset-5 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 125%;
+}
+
+.text-preset-5--mobile {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 125%;
+}
+
+.text-preset-6--mobile {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 125%;
+}
