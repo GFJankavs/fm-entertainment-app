@@ -1,9 +1,9 @@
-import SearchBar from "./components/SearchBar";
+import Button from "./components/Button";
 
 export default function Home() {
     return (
-        <div>
-            <SearchBar />
+        <div className="p-40">
+            <Button>Login to your account</Button>
         </div>
     );
 }
